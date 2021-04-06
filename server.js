@@ -22,7 +22,7 @@ app.get('/add',addDataHandler);
 app.get('/people',getDataHandler);
 app.get('*', notFoundHandler); //Error Handler
 
-// Routes Handlers
+// Routes Handlerseeeee
 //localhost:3000/add?first=Razan&last=Quran
 function addDataHandler(req,res) {
     console.log(req.query);
