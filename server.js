@@ -8,7 +8,7 @@ const cors = require('cors');
 const pg = require('pg');
 
 
-//Application setup
+//Application setupppp
 const app = express();
 app.use(cors());
 const PORT = process.env.PORT || 8000;
